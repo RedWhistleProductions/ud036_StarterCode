@@ -1,3 +1,5 @@
+Download from https://github.com/RedWhistleProductions/ud036_StarterCode
+
 Source code for a Movie Trailer website.
 
 Special Thanks to Adarsh Nair at Udacity.com for use of his fresh_tomatoes.py script
