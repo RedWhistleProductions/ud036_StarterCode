@@ -5,9 +5,10 @@ class Movie():
 	This is a storage container for movie data to be which is used on the fresh tomatoes web page.
 	Additionaly the show_trailer method can be called to open the trailer's webpage.
 	
-	movie_title is a string containing the name of the movie as it will appear on the page
-	movie_storyline contains the IMDB.com description of the Movie
-	poster_image_url and trailer_youtube_url are the repective poster image and youtube links
+	movie_title (str) name of the movie as it will appear on the page
+	movie_storyline (str) IMDB.com description of the Movie
+	poster_image_url (str) poster image link
+	trailer_youtube_url (str) link to the video on youtube
 	'''
 	def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
 		self.title = movie_title
