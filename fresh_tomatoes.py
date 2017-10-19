@@ -85,10 +85,10 @@ main_page_head = '''
             $(this).next("div").show("fast", showNext);
           });
         });
-		
+    	
     </script>
 </head>
-'''
+'''  # NOQA
 
 
 # The main page layout and title bar
@@ -122,7 +122,7 @@ main_page_content = '''
     </div>
   </body>
 </html>
-'''
+'''  # NOQA
 
 
 # A single movie entry html template
@@ -132,7 +132,7 @@ movie_tile_content = '''
     <h2>{movie_title}</h2>
     <div class = storyline>{storyline}</div>
 </div>
-'''
+'''  # NOQA
 
 
 def create_movie_tiles_content(movies):
